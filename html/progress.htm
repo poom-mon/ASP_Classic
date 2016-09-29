@@ -1,0 +1,34 @@
+﻿<!-- Static Modal -->
+<div class="modal modal-static fade" id="processing-modal" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="text-center">
+                    <img src="/destroying/doc/html/img/progress/loading.gif" class="icon" />
+                    <h4 id="lblLoader"> 
+                        Processing... 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    .modal-static {
+        position: fixed;
+        top: 50% !important;
+        left: 50% !important;
+        margin-top: -100px;
+        margin-left: -100px;
+        overflow: visible !important;
+    }
+    .modal-static, .modal-static .modal-dialog, .modal-static .modal-content {
+        width: 200px;
+        height: 200px;
+    }
+    .modal-static .modal-dialog, .modal-static .modal-content {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .modal-static .modal-content .icon {
+    }
+</style>
